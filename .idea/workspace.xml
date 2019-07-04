@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ce33a2-ec86-4084-a1e9-741392eb9ea3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook_ui/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebook_ui/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook_ui/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebook_ui/pages/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook_ui/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebook_ui/pages/login_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/fc.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home_page.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/facebook_ui/pages/home_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="44">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding>
                 <element signature="e#52#95#0" expanded="true" />
               </folding>
@@ -32,7 +36,8 @@
       <file leaf-file-name="login_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/facebook_ui/pages/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1034">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -49,11 +54,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="driver_menager.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="driver_menager.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/facebook_ui/utils/driver_menager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="308">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,8 +69,8 @@
       <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/facebook_ui/pages/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="1056">
+              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
               <folding>
                 <element signature="e#52#74#0" expanded="true" />
               </folding>
@@ -103,12 +111,13 @@
         <option value="$PROJECT_DIR$/pages/home_page.py" />
         <option value="$PROJECT_DIR$/facebook_ui/utils/constants.py" />
         <option value="$PROJECT_DIR$/facebook_ui/utils/driver_menager.py" />
-        <option value="$PROJECT_DIR$/facebook_ui/pages/home_page.py" />
-        <option value="$PROJECT_DIR$/facebook_ui/pages/base_page.py" />
         <option value="$PROJECT_DIR$/tests/test_facebook.py" />
         <option value="$PROJECT_DIR$/fff/file_TRANSFORMER_pnac.json" />
         <option value="$PROJECT_DIR$/fff/file_CSE_pnac.json" />
         <option value="$PROJECT_DIR$/tests/fc.py" />
+        <option value="$PROJECT_DIR$/facebook_ui/pages/base_page.py" />
+        <option value="$PROJECT_DIR$/facebook_ui/pages/home_page.py" />
+        <option value="$PROJECT_DIR$/facebook_ui/pages/login_page.py" />
       </list>
     </option>
   </component>
@@ -144,6 +153,18 @@
               <item name="CDP_Selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDP_Selenium" type="462c0819:PsiDirectoryNode" />
               <item name="facebook_ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDP_Selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDP_Selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="facebook_ui" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDP_Selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDP_Selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="facebook_ui" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CDP_Selenium" type="b2602c69:ProjectViewProjectNode" />
@@ -324,6 +345,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -402,6 +426,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -546,36 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/facebook_ui/pages/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#52#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facebook_ui/utils/driver_menager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/facebook_ui/utils/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facebook_ui/pages/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,12 +590,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/facebook_ui/pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding>
+            <element signature="e#52#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/facebook_ui/pages/home_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="44">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding>
             <element signature="e#52#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook_ui/pages/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook_ui/utils/driver_menager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

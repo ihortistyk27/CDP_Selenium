@@ -21,7 +21,7 @@ class BasePage(Page):
         """
         Computers menu
 
-        :return: ComputersMenu object
+        :return: Home Page object
         """
         from facebook_ui.pages.home_page import HomePage
         return HomePage(self.driver)
@@ -46,7 +46,7 @@ class BasePage(Page):
 
     def log_out(self):
         """
-        Click on "Log out Administrator" link
+        Click on "Log out" button
 
         :return: Login Page
         """

@@ -23,10 +23,10 @@ class HomePage(base_page.BasePage):
 
     def open(self):
         """
-        Waits for Main page to open. Overrides BasePage 'open' method,
+        Waits for Home page to open. Overrides BasePage 'open' method,
         instead of opening page by URL we just wait for it to load
 
-        :return: MainPage page object
+        :return: HomePage page object
         """
         self.wait.until(lambda x: self.loaded)
         return self

@@ -34,7 +34,7 @@ class LoginPage(Page):
 
         :param email: Email used for log in
         :param password: User password
-        :return: MainPage page object
+        :return: HomePage page object
 
         :Example:
 
@@ -45,7 +45,7 @@ class LoginPage(Page):
 
             driver = driver_manager.get_driver()
             login_page = LoginPage(driver, base_url=HOST).open()
-            main_page = login_page.login(EMAIL, PASSWORD)
+            home_page = login_page.login(EMAIL, PASSWORD)
         """
 
         self.find_element(*self._email_field).send_keys(email)
