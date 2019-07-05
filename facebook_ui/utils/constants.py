@@ -12,3 +12,10 @@ class Browser(Enum):
 
     CHROME = auto()
     INTERNET_EXPLORER = auto()
+
+
+class Title:
+    """
+    Class for holding titles
+    """
+    FACEBOOK_HOME = "Facebook"

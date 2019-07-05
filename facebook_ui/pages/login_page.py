@@ -56,4 +56,4 @@ class LoginPage(Page):
             page = home_page.HomePage(self.driver).open()
             return page
         except TimeoutException:
-            return "Could not login with the following email '{}' and password '{}'.".format(email, password)
+            raise "Could not login with the following email '{}' and password '{}'.".format(email, password)

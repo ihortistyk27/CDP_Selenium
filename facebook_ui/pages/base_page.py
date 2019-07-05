@@ -5,6 +5,7 @@ Module for holding base page functionality
 from pypom import Page
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
+from selenium.webdriver.support import expected_conditions as ec
 
 
 class BasePage(Page):
@@ -52,5 +53,6 @@ class BasePage(Page):
         """
         from facebook_ui.pages.login_page import LoginPage
         self.find_element(*self._account_settings).click()
+        self.wait.until(ec.presence_of_element_located(self._log_out))
         self.find_element(*self._log_out).click()
         return LoginPage(self.driver)
