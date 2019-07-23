@@ -10,6 +10,8 @@ pip install pytest-ordering
 link to documentation >> https://pytest-ordering.readthedocs.io/en/develop/index.html
 
 ############
-For the parallel run you should install this plugin 'pip install pytest-xdist', then add "-n number_of_parallel_run"
-to pytest.main() as argument.
+For the parallel run you should install this plugin 'pip install pytest-parallel', then add "--tests-per-worker=2"
+to pytest.main() as argument and in conftest.py use decorator @pytest.fixture(scope="session") instead of
+@pytest.yield_fixture... this decorator will yield web driver per each session.
+
 link to documentation >> https://pypi.org/project/pytest-parallel/
