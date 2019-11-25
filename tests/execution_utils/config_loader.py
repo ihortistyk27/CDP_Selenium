@@ -1,11 +1,11 @@
-from configparser import SafeConfigParser
+import configparser
 import os
 
 
 class Config:
     """Interact with configuration variables."""
 
-    configParser = SafeConfigParser()
+    configParser = configparser.SafeConfigParser()
     config_file_path = (os.path.join(os.getcwd(), 'configuration/config.ini'))
 
     @classmethod

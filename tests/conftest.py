@@ -7,7 +7,7 @@ Properties.initialize('config.ini')
 
 
 # @pytest.yield_fixture(scope="session")
-@pytest.fixture(scope="session")
+@pytest.fixture
 def init_driver():
     driver = dm.get_driver()
     driver.maximize_window()
