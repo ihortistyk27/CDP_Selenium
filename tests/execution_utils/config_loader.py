@@ -1,11 +1,11 @@
-import configparser
+from configparser import ConfigParser, BasicInterpolation
 import os
 
 
 class Config:
     """Interact with configuration variables."""
 
-    configParser = configparser.SafeConfigParser()
+    configParser = ConfigParser(interpolation=BasicInterpolation())
     config_file_path = (os.path.join(os.getcwd(), 'configuration/config.ini'))
 
     @classmethod
@@ -21,4 +21,4 @@ class Config:
     @classmethod
     def credentials(cls, key):
         """Get credentials value from config.ini."""
-        return cls.configParser.get('credentials', key)
+        return cls.configParser.get("credentials", key, vars=os.environ)
