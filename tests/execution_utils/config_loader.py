@@ -17,9 +17,3 @@ class Config:
     def credentials(cls, key):
         """Get credentials value from config.ini."""
         return cls.configParser.get('credentials', key, vars=os.environ)
-
-
-Config.initialize()
-print(Config.config_file_path)
-print(Config.configParser.sections())
-print(Config.credentials('email'))
