@@ -3,7 +3,7 @@ import facebook_ui.utils.driver_menager as dm
 from tests.execution_utils.config_loader import Config as Properties
 
 
-Properties.initialize('config.ini')
+Properties.initialize()
 
 
 # @pytest.yield_fixture(scope="session")
