@@ -7,7 +7,7 @@ dir_path = os.getcwd()
 pytest_args = ["C:\CDP_Selenium\\tests",
                "--disable-pytest-warnings",
                "-vv",
-               "--alluredir", dir_path + "\\reports\\allure""reports\\allure"
+               "--alluredir", dir_path + "\\reports\\allure"
                ]
 
 pytest.main(pytest_args)
