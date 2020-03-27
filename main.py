@@ -5,6 +5,7 @@ import pytest
 pytest_args = ["C:\CDP_Selenium\\tests",
                "--disable-pytest-warnings",
                "-vv",
-               "--alluredir", "./allure-results"]
+               "--alluredir", "./target/allure-results"
+               ]
 
 pytest.main(pytest_args)
